@@ -14,4 +14,4 @@
 + *Оптимизация шрифтов*
 
 ### Ссылка на GitHub Pages
-* [Ссылка на макет в GitHub Pages]
+https://melifaro13.github.io/russian-travel/
