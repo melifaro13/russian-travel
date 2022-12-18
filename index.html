@@ -6,8 +6,8 @@
     <title>Russian-travel</title>
     <link rel="stylesheet" href="pages/index.css">
 </head>
-<body>
-   <div class="page">
+<body class="page">
+      <div class="page__color">
        <header class="header">
            <img src="./images/header-logo.svg" alt="Логотип карты России" class="header__logo">
            <a href="#!" class="header__lang-link header__lang-link_active">Ru</a>
@@ -111,9 +111,10 @@
            </div>
        </section>
        <section class="cover">
-           <h2 class="cover__title">До&nbsp;Байкала «на&nbsp;собаках»</h2>
-           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-           <a target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link"></a>
+           <a class="cover__overlay" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+               <h2 class="cover__title">До&nbsp;Байкала «на&nbsp;собаках»</h2>
+               <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+           </a>
        </section>
        <footer class="footer">
            <nav class="footer__links">
@@ -125,6 +126,6 @@
            </nav>
            <p class="footer__copyright">© 2022. Андрей Александров</p>
        </footer>
-   </div>
+    </div>
 </body>
 </html>
