@@ -19,48 +19,36 @@
 
 @media screen and (max-width: 1023px) {
     .cover {
-        margin: 0 auto;
-        width: 100%;
         height: 480px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cover {
-        margin: 0 auto;
-        width: 100%;
         height: 400px;
     }
 }
 
 @media screen and (max-width: 640px) {
     .cover {
-        margin: 0 auto;
-        width: 100%;
         height: 350px;
     }
 }
 
 @media screen and (max-width: 560px) {
     .cover {
-        margin: 0 auto;
-        width: 100%;
         height: 300px;
     }
 }
 
 @media screen and (max-width: 485px) {
     .cover {
-        margin: 0 auto;
-        width: 100%;
         height: 250px;
     }
 }
 
 @media screen and (max-width: 400px) {
     .cover {
-        margin: 0 auto;
-        width: 100%;
         height: 200px;
     }
 }

@@ -7,8 +7,6 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     max-width: 1280px;
-    width: 100%;
     margin: 0 auto;
-    padding: 0;
     background-color: #2A2C2F;
 }
