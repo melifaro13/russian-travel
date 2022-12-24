@@ -1,0 +1,20 @@
+.comment__quote {
+    margin: 42px 0 24px 0;
+    font-size: 14px;
+    line-height: 24px;
+    order: 2;
+}
+
+@media screen and (max-width: 1024px) {
+    .comment__quote {
+        margin: 40px 0 16px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .comment__quote {
+        margin: 0;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}

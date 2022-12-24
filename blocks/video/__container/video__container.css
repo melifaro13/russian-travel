@@ -1,0 +1,26 @@
+.video__container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 18px;
+    min-height: 323px;
+}
+
+@media screen and (max-width: 1024px) {
+    .video__container {
+        column-gap: 16px;
+        min-height: 288px;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .video__container {
+        min-height: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .video__container {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+}

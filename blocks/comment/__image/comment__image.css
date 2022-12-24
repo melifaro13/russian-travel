@@ -1,0 +1,14 @@
+.comment__image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 97px;
+    min-height: 97px;
+    border-radius: 50%;
+    order: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .comment__image {
+        min-width: 97px;
+    }
+}
